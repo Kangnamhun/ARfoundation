@@ -15,6 +15,9 @@ public class SupportChecker : MonoBehaviour
     [SerializeField]
     Button m_InstallButton;
 
+    [SerializeField]
+    GameObject panel;
+
     private void OnEnable()
     {
         StartCoroutine(CheckSupport());
@@ -43,7 +46,7 @@ public class SupportChecker : MonoBehaviour
         {
             Log("Attempting install..");
             yield return ARSession.Install();
-            if(ARSession.state == ARSessionState.NeedsInstall)
+            if(ARSession.state == ARSessionState.Ready)
             {
                 Log("The sofrware update failed, or you edclined the update");
                 SetInstallButtonActive(true);
@@ -52,6 +55,7 @@ public class SupportChecker : MonoBehaviour
             {
                 Log("Success! Starting AR session...");
                 m_Session.enabled = true;
+                panel.SetActive(true);
             }
         }
         else
@@ -80,6 +84,7 @@ public class SupportChecker : MonoBehaviour
             Log("Starting AR session...");
 
             m_Session.enabled = true;
+            panel.SetActive(true);
         }
         else
         {

@@ -7,25 +7,29 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
-    guid: 1acd95dc758d9ef43a626c5f9badb4b4
+    guid: b05b60760e79963429c8b08a06de209e
   - enabled: 1
     path: Assets/Scenes/ARSupportCheck.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: b05376c09a1e2da4894d17b1e41f7268
   - enabled: 1
-    path: Assets/Scenes/ARPlaneDetection.unity
-    guid: 1de15c5776c0c524dbc5762bb82ff4c5
+    path: Assets/Scenes/ARPlaneDetectionScene.unity
+    guid: 4a339a069a1d34c4795f59bfee361c13
   - enabled: 1
     path: Assets/Scenes/ARPlaneManagerScene.unity
-    guid: 9156324ad1f310a40aabb820a25ff7a4
+    guid: 5fca01a8f2da97d4eaa4e64264b903e2
   - enabled: 1
-    path: Assets/Scenes/AROcclusion.unity
-    guid: edf1345bd52128e40ae10bd0b6b7dc53
+    path: Assets/Scenes/ARSimpleOcclusion.unity
+    guid: 83f53cb0e40b8834a86e19110975f4b7
   - enabled: 1
     path: Assets/Scenes/ARRayCasts.unity
-    guid: 3e4297a78d5e42b49aef73c69c6deb16
+    guid: 88d3b3042f204e841852644e89ff8365
   - enabled: 1
     path: Assets/Scenes/ARBasicImageTracking.unity
-    guid: f6ae0ac3da48e1d47855d5add10fd08c
+    guid: 304943d37d7213245bd22d1985c6a297
+  - enabled: 1
+    path: Assets/Scenes/ARButterflyImageTracking.unity
+    guid: 722df5374c065f248a79a508ebda5c18
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 809f06027eaa6284480b7dbcd2cb210e, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 32a02dd4a37af994c9fa48c4148f47e5, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 817fd1b5ed308504e88a12b3b9d5d3ec, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 00d505296de331e448d5012c8f83149f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 85d1130a22d7008478fbe6f74f1e4a55, type: 2}
