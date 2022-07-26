@@ -17,6 +17,7 @@ public class DistanceManager : MonoBehaviour
 
     void Start()
     {
+        //
         m_SpawnedSumPrefab = Instantiate(m_SumPrefab, Vector3.zero, Quaternion.identity);
         m_SpawnedSumPrefab.SetActive(false);
     }
