@@ -955,6 +955,8 @@ GameObject:
   - component: {fileID: 8127477915032812833}
   - component: {fileID: 8127477915039961807}
   - component: {fileID: 1412456765744746528}
+  - component: {fileID: 9029811116508284273}
+  - component: {fileID: 7395754563704932469}
   m_Layer: 0
   m_Name: AR_DogPBR
   m_TagString: Untagged
@@ -971,7 +973,7 @@ Transform:
   m_GameObject: {fileID: 8127477915032707329}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8127477915032812705}
   - {fileID: 8127477915032812879}
@@ -1018,6 +1020,32 @@ MonoBehaviour:
   - Recovery
   - Attack2
   - Defend
+--- !u!136 &9029811116508284273
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127477915032707329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.7801191
+  m_Height: 2.0509233
+  m_Direction: 1
+  m_Center: {x: -0.034247637, y: 0.5254613, z: 0}
+--- !u!114 &7395754563704932469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127477915032707329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01286fdd4e083f43b603379ce24b84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8127477915032707331
 GameObject:
   m_ObjectHideFlags: 0
