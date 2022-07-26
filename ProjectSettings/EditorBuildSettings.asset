@@ -38,9 +38,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ARFaceMat.unity
     guid: a2cfdbe3c5cd6ef4ea5ced8fad7276d9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ARFaceMat 2.unity
     guid: 5d10d451a97d1b6458525855b2a69453
+  - enabled: 0
+    path: Assets/Scenes/ARFaceRegion.unity
+    guid: 61c6919bb6f8fea438d1c062a9d6ec78
+  - enabled: 1
+    path: Assets/Scenes/ImageTrackPlay.unity
+    guid: 3334496f2c96fd644ac80bc17dd3a75f
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 817fd1b5ed308504e88a12b3b9d5d3ec, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 00d505296de331e448d5012c8f83149f, type: 2}
